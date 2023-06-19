@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+    background-image: linear-gradient(62deg, #5581ac 50%, black 100%);
+    margin: 13% 25rem;
+    font-family: 'cursive', sans-serif;
+}
+.glow {
+    font-size: 50px;
+    color: rgb(80, 80, 186);
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.glow:hover{
+    color: cadetblue;
+    font-size: 60px;
+    filter: drop-shadow(0 0 23px pink);
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #a98496, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+  
